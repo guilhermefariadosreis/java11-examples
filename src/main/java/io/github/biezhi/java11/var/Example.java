@@ -27,7 +27,7 @@ public class Example {
         var path  = Paths.get(fileName);
         var bytes = Files.readAllBytes(path);
 
-        System.out.println("字节数组: " + bytes);
+        System.out.println("mensagem: " + bytes);
 
         for (var b : bytes) {
             // TODO
